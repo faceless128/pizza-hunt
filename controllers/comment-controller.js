@@ -1,4 +1,4 @@
-const { Comment, Pizza } = require('../models');
+const { Pizza, Comment } = require('../models');
 
 const commentController = {
     // add comments to pizza
@@ -46,4 +46,4 @@ const commentController = {
     }
 };
 
-modile.exports = commentController; 
+module.exports = commentController; 
